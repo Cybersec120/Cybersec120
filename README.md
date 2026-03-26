@@ -7,7 +7,7 @@
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-# A. W. F. Shabazz El ∴
+# Allah El
 
 ### *The Bridge Between Stakeholders & Engineers*
 
@@ -25,7 +25,7 @@
 
 ```yaml
 role:        Cloud Architect & Security Engineer
-experience:  10+ years in IT, Linux, Kubernetes, Cloud Infrastructure
+experience:  12 years in IT, Linux, Kubernetes, Cloud Infrastructure
 focus:       AWS Well-Architected Framework | DevSecOps | IAM | Chaos Engineering
 approach:    Infrastructure as Code — everything in Terraform, nothing by hand
 status:      Independent Consultant — available for engagements
