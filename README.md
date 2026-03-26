@@ -21,11 +21,11 @@
 
 ---
 
-## `whoami`
+## `whence came you? ∴`
 
 ```yaml
 role:        Cloud Solution Architect, Security Engineer, IAM Engineer, 
-experience:  10+ years in IT, Linux, Kubernetes, Cloud Infrastructure
+experience:  12 years in IT, Linux, Kubernetes, Cloud Infrastructure
 focus:       AWS Well-Architected Framework | DevSecOps | IAM | OFF-SEC
 approach:    Infrastructure as Code — everything in Terraform, nothing by hand
 status:      Independent Consultant — available for engagements
