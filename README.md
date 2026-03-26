@@ -24,9 +24,9 @@
 ## `whoami`
 
 ```yaml
-role:        Cloud Architect & Security Engineer
+role:        Cloud Solution Architect, Security Engineer, IAM Engineer, 
 experience:  10+ years in IT, Linux, Kubernetes, Cloud Infrastructure
-focus:       AWS Well-Architected Framework | DevSecOps | IAM | Penetration Testing
+focus:       AWS Well-Architected Framework | DevSecOps | IAM | OFF-SEC
 approach:    Infrastructure as Code — everything in Terraform, nothing by hand
 status:      Independent Consultant — available for engagements
 clearance:   Public Trust Eligible | U.S. Army Veteran | 10-Point Disabled Veteran Preference
