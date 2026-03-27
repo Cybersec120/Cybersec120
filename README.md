@@ -7,7 +7,7 @@
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-#  A.W.F. Shabazz El
+# A.W. F. Shabazz El
 
 ### *The Bridge Between Stakeholders & Engineers*
 
@@ -25,8 +25,8 @@
 
 ```yaml
 role:        Cloud Architect & Security Engineer
-experience:  12 years in IT, Linux, Kubernetes, Cloud Infrastructure
-focus:       AWS Well-Architected Framework | DevSecOps | IAM | Chaos Engineering
+experience:  10+ years in IT, Linux, Kubernetes, Cloud Infrastructure
+focus:       AWS Well-Architected Framework | DevSecOps | IAM | SOC Engineering
 approach:    Infrastructure as Code — everything in Terraform, nothing by hand
 status:      Independent Consultant — available for engagements
 clearance:   Public Trust Eligible | U.S. Army Veteran | 10-Point Disabled Veteran Preference
@@ -36,77 +36,81 @@ clearance:   Public Trust Eligible | U.S. Army Veteran | 10-Point Disabled Veter
 
 ---
 
-## 🏗️ Portfolio Projects
+## 🛡️ Certifications
 
-### ☁️ AWS — Well-Architected Framework
-
-| # | Project | Pillar | Stack | Description |
-|---|---|---|---|---|
-| 1 | [**Operational Excellence**](https://github.com/Cybersec120/AWS-Architecting-with-AWS-Well-Architected-Framework-Project1) | Pillar 1 | `Terraform` `S3` `CloudFront` `CloudWatch` `SNS` | Production static site — HSTS, CloudFront OAC, monitoring stack, access logging |
-| 2 | [**Security + IAM**](https://github.com/Cybersec120/AWS-Architecting-with-AWS-Well-Architected-Framework-Project2-IAM) | Pillar 2 | `Terraform` `IAM` `KMS` `SCPs` `GuardDuty` | Least-privilege IAM, AWS Organizations with SCPs, GuardDuty, encryption everywhere |
-| 3 | [**IAM Single Source of Truth**](https://github.com/Cybersec120/IAM-Truth-Single-Source) | Security | `Terraform` `IAM` `AWS Organizations` | Centralized IAM governance — one root to rule all accounts |
-| 4 | [**WordPress on EKS**](https://github.com/Cybersec120/aws-well-architected-wordpress-eks) | Pillar 2 | `Terraform` `EKS` `RDS` `WAF` `GuardDuty` `KMS` `EFS` | Production WordPress — IRSA, WAF v2, Multi-AZ RDS, Secrets Manager, Security Hub, CloudTrail |
-
-### 🔷 Azure — Well-Architected Framework
-
-| # | Project | Pillars | Stack | Description |
-|---|---|---|---|---|
-| 5 | [**Secure DevOps Pipeline**](https://github.com/Cybersec120/azure-secure-devops-pipeline-Single-Truth) | Security | `Terraform` `AKS` `GitHub Actions` `OIDC` `Key Vault` | Zero static credentials — OIDC-federated CI/CD, Key Vault secrets, AKS production cluster |
-| 6 | [**AKS Chaos Engineering**](https://github.com/Cybersec120/azure-aks-chaos-engineering) | Reliability + Security + Observability | `Terraform` `AKS` `Chaos Studio` `Prometheus` `Grafana` `WAF v2` | 5 chaos experiments — pod kill, CPU stress, network latency, node shutdown. Full observability stack |
-
-### ⚙️ DevOps & Kubernetes
-
-| # | Project | Stack | Description |
-|---|---|---|---|
-| 7 | [**Kubernetes Demo**](https://github.com/Cybersec120/kubernetes-demo) | `Kubernetes` `JavaScript` | Kubernetes workload demonstrations and hands-on labs |
+| Certification | Provider |
+|---|---|
+| OSCP — Offensive Security Certified Professional | Offensive Security |
+| AWS Certified Solutions Architect — Associate | Amazon Web Services |
+| Azure Security Engineer Associate | Microsoft |
+| Certified Kubernetes Administrator (CKA) | CNCF / Linux Foundation |
+| Terraform Associate | HashiCorp |
+| Certified Bug Bounty Hunter | Hack The Box |
+| Linux Foundation Certified Systems Administrator (LFCS) | Linux Foundation |
+| Google Cybersecurity Professional | Google |
 
 ---
 
-## 🛡️ Security Work
-
-- **OSCP Certified** — Offensive Security Certified Professional
-- Web application penetration testing (Burp Suite Pro)
-- Full professional pentest reports — CVSS scoring, remediation roadmaps
-- Findings: SQL Injection, XSS, CSRF, Session Fixation, IDOR
-- AWS IAM privilege escalation analysis and SCPs hardening
-- Chaos engineering — breaking systems intentionally to prove resilience
-
----
-
-## ⚙️ Core Stack
-
-```
-Cloud          │  AWS (EKS, RDS, S3, CloudFront, IAM, GuardDuty, KMS, Organizations, WAF)
-               │  Azure (AKS, Entra ID, Key Vault, Chaos Studio, Defender, App Gateway)
-IaC            │  Terraform — every project, every environment
-Containers     │  Kubernetes (EKS, AKS) · Docker · Helm · Calico
-Security       │  OSCP · Burp Suite Pro · OWASP Top 10 · CIS Benchmarks · Zero Trust
-Observability  │  Prometheus · Grafana · Azure Monitor · CloudWatch · Log Analytics
-CI/CD          │  GitHub Actions · OIDC Federation · Zero Static Credentials
-Scripting      │  Bash · Python
-Frameworks     │  AWS Well-Architected (all 6 pillars) · Azure WAF (all 5 pillars)
-               │  NIST · CIS · Zero Trust · Chaos Engineering
-AI/Automation  │  LLM Integration · Agentic Workflow Design · MCP Tooling
-```
-
----
-
-## 📜 Certifications
+## 🧰 Core Stack
 
 <div align="center">
 
-| Cert | Issuer |
-|---|---|
-| OSCP — Offensive Security Certified Professional | Offensive Security |
-| AWS Certified Solutions Architect | Amazon Web Services |
-| Azure Certified Security Engineer | Microsoft Azure |
-| Certified Bug Bounty Hunter | Hack The Box |
-| Certified Kubernetes Administrator (CKA) | The Linux Foundation |
-| LFCS — Linux Foundation Certified SysAdmin | The Linux Foundation |
-| Terraform Associate | HashiCorp |
-| Google Cybersecurity Professional | Google |
+`Terraform` `AWS` `Azure` `Kubernetes` `Docker` `GitHub Actions` `Python` `Bash`
+`Sentinel` `Defender for Cloud` `GuardDuty` `Security Hub` `CloudTrail` `WAF`
+`KQL` `Prometheus` `Grafana` `Chaos Studio` `Burp Suite` `Nmap` `Metasploit`
 
 </div>
+
+---
+
+## 📂 Portfolio — AWS Projects
+
+| # | Project | Pillar Focus | Key Technologies |
+|---|---------|-------------|-----------------|
+| 1 | [**AWS Well-Architected — Operational Excellence**](https://github.com/Cybersec120/AWS-Architecting-with-AWS-Well-Architected-Framework-Project1) | Ops Excellence | S3, CloudFront, CloudWatch, SNS, Lambda |
+| 2 | [**AWS Well-Architected — Security (IAM Pipeline)**](https://github.com/Cybersec120/AWS-Architecting-with-AWS-Well-Architected-Framework-Project2-IAM) | Security | IAM, EC2 Instance Profiles, Lambda Roles, IMDSv2, CloudTrail |
+| 3 | [**WordPress on EKS — Security Pillar**](https://github.com/Cybersec120/aws-well-architected-wordpress-eks) | Security | EKS, IRSA, WAF v2, GuardDuty, KMS, Security Hub |
+
+---
+
+## 📂 Portfolio — Azure Projects
+
+| # | Project | Pillar Focus | Key Technologies |
+|---|---------|-------------|-----------------|
+| 4 | [**Enterprise IAM Platform**](https://github.com/Cybersec120/IAM-Truth-Single-Source) | All 5 Pillars | Entra ID, Conditional Access, OIDC/SAML, Key Vault, Azure Policy |
+| 5 | [**Secure DevOps Pipeline**](https://github.com/Cybersec120/azure-secure-devops-pipeline-Single-Truth) | Security / Ops | Private AKS, ACR, Key Vault, Hub-Spoke VNet, GitHub Actions OIDC |
+| 6 | [**AKS Chaos Engineering Platform**](https://github.com/Cybersec120/azure-aks-chaos-engineering) | Reliability / Security | Chaos Studio, Prometheus, Grafana, App Gateway WAF v2, PostgreSQL |
+| 7 | [**Azure SOC Lab — Cloud-Native Defense**](https://github.com/Cybersec120/azure-soc-lab) | Security / Ops | Microsoft Sentinel, Defender for Cloud, KQL Detections, NSG Flow Logs |
+
+---
+
+## 🔬 Azure SOC Lab — Latest Build
+
+**Cloud-native SOC environment** deployed entirely in Terraform — simulates a production Security Operations Center with Microsoft's defense stack.
+
+```
+Dev Environment ──► attack simulation VM
+Prod Environment ──► Domain Controller + Member Server
+                         │
+              ┌──────────┴──────────┐
+              │  Log Analytics       │
+              │  + Microsoft Sentinel│
+              │  + Defender for Cloud│
+              └─────────────────────┘
+```
+
+**Detection Coverage (6 custom KQL rules):**
+
+| Rule | MITRE ATT&CK | Severity |
+|------|-------------|----------|
+| Brute Force RDP | T1110 — Credential Access | High |
+| New Local Admin Created | T1136.001 — Persistence | High |
+| PowerShell Download Cradle | T1059.001 — Execution | Medium |
+| Scheduled Task Persistence | T1053.005 — Persistence | Medium |
+| Defender AV Tamper Attempt | T1562.001 — Defense Evasion | High |
+| RDP Lateral Movement | T1021.001 — Lateral Movement | High |
+
+**Defense Stack:** Defender for Servers P2 · Defender for Key Vault · Defender for DNS · Defender for ARM · Sentinel SIEM · NSG Flow Logs + Traffic Analytics · IaaSAntimalware · Auto-Shutdown · Ingestion Spike Alerts
 
 ---
 
@@ -130,7 +134,7 @@ AI/Automation  │  LLM Integration · Agentic Workflow Design · MCP Tooling
 [![Credly](https://img.shields.io/badge/Credly-Badges-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/allah-shabazz-el.b661b4db)
 [![GitHub](https://img.shields.io/badge/GitHub-lifehackops120-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lifehackops120)
 
-*Available for cloud security consulting, Terraform IaC delivery, penetration testing, and chaos engineering engagements.*
+*Available for cloud security consulting, Terraform IaC delivery, penetration testing, and SOC engineering engagements.*
 
 </div>
 
